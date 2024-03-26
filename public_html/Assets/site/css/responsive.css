@@ -1,0 +1,337 @@
+/* @media (max-width: 3500px) and (max-width: 2000px) {
+    .logo-municipio {
+        margin-right: -7%;
+    }
+} */
+@media (max-width: 1499px) {
+    /* Header Promo */
+    .hero-section .promo .holder h1 {
+        bottom: 120px;
+        font-size: 65px;
+        margin-left: 50px;
+    }
+    /* .logo-municipio {
+        margin-right: -138px;
+        width: 14%;
+    } */
+    /* Nuestro Ejemplares */
+    .ejemplares h1 {
+        color: var(--verde);
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* Acreditaciones */
+    .acreditaciones .info-acreditaciones {
+        padding: 70px 0;
+    }
+    .acreditaciones .info-acreditaciones h2 {
+        padding: 25px 150px;
+    }
+    /* Historia */
+    .contamos h1 {
+        font-size: 40px;
+    }
+    .contamos .contamos-desc {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 1399px) {
+    /* Header */
+    .header .logo img {
+        width: 75%;
+    }
+    /* Hero Slider */
+    .hero-section .slide .caption {
+        left: 25%;
+        width: 40%;
+    }
+    .hero-section .slide .caption .txt h1 {
+        font-size: 35px;
+    }
+    .hero-shape svg {
+        height: 60px;
+    }
+    /* Header Promo */
+    .hero-section .promo .holder h1 {
+        bottom: 110px;
+        font-size: 55px;
+        margin-left: 80px;
+        width: 35%;
+    }
+    /* Parallax 01 */
+    .parallax01.parallax-padding {
+        padding-top: 450px;
+    }
+    /* Historia */
+    .historia .txt-historia {
+        padding: 0 30px;
+    }
+    /* Noticias */
+    .noticias figure {
+        width: 355px;
+    }
+    .noticias figure figcaption {
+        bottom: -48%;
+    }
+    /* Acreditaciones */
+    .acreditaciones .info-acreditaciones {
+        padding: 70px 0;
+    }
+    .acreditaciones .info-acreditaciones h2 {
+        padding: 25px 90px;
+    }
+    /* Ubicación */
+    .ubicacion .info-contacto {
+        padding: 20px;
+    }
+    /* Ejemplar */
+    .hero-section .promo .holder h3 {
+        bottom: 93px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 1299px) {
+    /* .logo-municipio {
+        margin-right: -140px;
+        width: 16%;
+    } */
+    /* Historia */
+    .contamos h1 {
+        font-size: 30px;
+    }
+    .contamos p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* Header */
+    .header .logo img {
+        width: 65%;
+    }
+    .header nav ul li a {
+        font-size: 17px;
+    }
+    /* .logo-municipio {
+        margin-right: -140px;
+        width: 20%;
+    } */
+    /* Header Promo */
+    .hero-section .promo .holder h1 {
+        bottom: 90px;
+        font-size: 45px;
+        margin-left: 60px;
+    }
+    /* Parallax 01 */
+    .parallax01 {
+        background-attachment: unset;
+    }
+    .parallax01.parallax-padding {
+        padding-top: 350px;
+    }
+    /* Historia */
+    .historia {
+        padding: 50px 0;
+    }
+    .historia .txt-historia h1 {
+        text-align: center;
+    }
+    /* Conocenos */
+    .conocenos h1 {
+        text-align: center;
+    }
+    /* Noticias */
+    .noticias h1 {
+        text-align: center;
+    }
+    .noticias figure {
+        height: 340px;
+        width: 255px;
+    }
+    .noticias figure figcaption {
+        bottom: -20%;
+    }
+    .noticias figure figcaption p {
+        display: none;
+    }
+    /* Acreditaciones */
+    .acreditaciones .info-acreditaciones {
+        left: 0;
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }
+    /* Ubicación */
+    .ubicacion .mapa {
+        height: 30vh;;
+    }
+    .ubicacion .info-contacto {
+        padding: 80px;
+    }
+    .ubicacion .info-contacto h3 {
+        text-align: center;
+    }
+    /* Ejemplar */
+    .hero-section .promo .holder h3 {
+        bottom: 73px;
+        margin-left: 60px;
+    }
+    /* Historia */
+    .contamos p {
+        font-size: 12px;
+    }
+    /* footer */
+    .footer .partners-social .partners {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .bkg-collapse {
+        background-color: var(--blanco);
+        opacity: .95;
+    }
+    .header nav ul li a {
+        color: var(--negro);
+        text-align: center;
+    }
+    /* .logo-municipio {
+        margin-right: -132px;
+        width: 25%;
+    } */
+    /* Hero Slider */
+    .hero-section .slide .caption .txt h1 {
+        font-size: 18px;
+    }
+    .boton {
+        margin-top: 20px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .hero-shape svg {
+        height: 40px;
+    }
+    /* Header Promo */
+    .hero-section .promo .holder h1 {
+        bottom: 70px;
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    /* Nuestros Paquetes */
+    .paquetes h1, .paquetes h5 {
+        text-align: center;
+    }
+    .paquetes .cards-paquetes div:last-child,
+    .noticias .cards-noticias div:last-child {
+        margin-top: 20px;
+    }
+    /* Acreditaciones */
+    .acreditaciones .info-acreditaciones {
+        padding: 65px 0;
+    }
+    .acreditaciones .info-acreditaciones h2 {
+        font-size: 30px;
+        padding: 0;
+    }
+    /* Ejemplar */
+    .hero-section .promo .holder h3 {
+        bottom: 53px;
+        margin-left: 50px;
+    }
+    .features .preservation img {
+        padding: 0 50px;
+    }
+    /* Historia */
+    .historia-txt .txt-history {
+        column-count: unset;
+        padding: 0 50px;
+    }
+    .contamos .img-contamos img {
+        object-fit: cover;
+        object-position: bottom;
+        width: 100%;
+    }
+    .contamos .txt-contamos {
+        padding: 30px;
+    }
+    /* Contacto */
+    .ubicacion.contacto .info-contacto {
+        left: 0;
+        padding: 10px 50px;
+        position: relative;
+        top: 0;
+        transform: none;
+        z-index: 1000;
+    }
+    /* footer */
+    .footer .foot-menu ul li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 428px) {
+    /* .logo-municipio {
+        margin-right: -147px;
+        width: 50%;
+    } */
+    /* Hero Slider */
+    .hero-section .slide .caption .txt h1 {
+        display: none;
+    }
+    .hero-shape svg {
+        height: 15px;
+    }
+    /* Header Promo */
+    .aves h1, 
+    .mamiferos h1,
+    .reptiles h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .parallax01 {
+        /* background-position: -850px; */
+        background-attachment: unset;
+    }
+    .parallax01 h2 {
+        text-align: right;
+    }
+    /* Ejemplar */
+    .ejem-descripcion .txt-desc .titulo_resp {
+        color: var(--font-color);
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .ejem-descripcion .txt-desc .titulo_resp h3 {
+        text-transform: none;
+    }
+    .features h3 {
+        text-align: center;
+    }
+    .ejemplares .mapagral .contenido .ubMVN a {
+        height: 5px;
+        width: 5px;
+    }
+    .ejemplares .position-ub-map.pulse2 a:before,
+    .ejemplares .position-ub-map.pulse2 a:after {
+        height: 5px;
+        width: 5px;
+    }
+    /* Footer */
+    .footer .partners img {
+        margin-bottom: 30px;
+    }
+    .footer .partners div:last-child > img {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    /* .logo-municipio {
+        margin-right: -134px;
+    } */
+}
