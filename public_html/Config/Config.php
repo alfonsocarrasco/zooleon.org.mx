@@ -1,6 +1,6 @@
 <?php
-    // const BASE_URL = 'http://localhost/zooleon/';
-    const BASE_URL = 'https://zooleon.org/';
+     const BASE_URL = 'http://zooleon.local/';
+    //const BASE_URL = 'https://zooleon.org/';
 
 	date_default_timezone_set('America/Mexico_City');
 
@@ -14,9 +14,11 @@
 	//Datos de conexión a Base de Datos Local
 	const DB_HOST = 'localhost';
 	const DB_NAME = 'odmstudi_zooleonOrg';
-	const DB_USER = 'odmstudi_zoosval';
-	const DB_PASSWORD = 'Z88Va5#2%';
-	const DB_CHARSET = 'utf8';
+	#const DB_USER = 'odmstudi_zoosval';
+	#const DB_PASSWORD = 'Z88Va5#2%';
+  const DB_USER = 'root';
+  const DB_PASSWORD = '';
+  const DB_CHARSET = 'utf8';
 
 	// SECRET KEY RECAPTCHA
 	const SKEY = '6LczrGQkAAAAANXgQDCeqGj-XB5CWeTWfaAwrtYe';
