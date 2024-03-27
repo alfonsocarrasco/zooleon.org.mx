@@ -45,8 +45,8 @@ trait TEspecies {
                        esp.statusespecie,
                        c.nombre_categoria,
                        IFNULL(esp.orden, 3) AS orden
-                FROM odmstudi_zooleonOrg.especies esp
-                INNER JOIN odmstudi_zooleonOrg.categoria c ON esp.categoriaid = c.idcategoria
+                FROM especies esp
+                INNER JOIN categoria c ON esp.categoriaid = c.idcategoria
                 WHERE esp.statusespecie = 1 ORDER BY orden ASC, FIELD(c.nombre_categoria, 'Mamíferos','Aves','Reptiles')";
         $request = $this->con->select_all($sql);
         return $request;

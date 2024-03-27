@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_MX">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +28,7 @@
     <?php if ($data['page_tag'] == 'contacto' || $data['page_tag'] == 'planeavisita'): ?>
     <link rel="stylesheet" href="<?= media(); ?>plugins/notifications/css/lobibox.min.css" />
     <link rel="stylesheet" href="<?= media(); ?>site/css/jquery.datetimepicker.min.css">
-    <script src="https://www.google.com/recaptcha/api.js?render=6LczrGQkAAAAAHX_mSuhIw_QCC22lZwI8cAIlVc7"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lf98KUpAAAAAOXaPNTLUtIkWcnOfct9nTPpdlQb"></script>
     <?php endif; ?>
     <?php if ($data['page_tag'] == 'transparencia'): ?>
     <link rel="stylesheet" href="<?= media(); ?>plugins/datatable/css/dataTables.bootstrap5.min.css" />

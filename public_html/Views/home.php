@@ -1,6 +1,9 @@
 <?php
     headerSite($data);
-
+echo "<pre>";    
+print_r($data);
+echo "</pre>";
+die();
     $arrInfoGral = $data['infogral'];
 
     if ($arrInfoGral['statusinfogral'] != 2):
